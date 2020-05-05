@@ -10,7 +10,7 @@ public class LoginDao
 {
 	String url = "jdbc:mysql://localhost:3306/jdbc";
 	String username = "root";
-	String pass = "admin96";
+	String pass = "******";
 	String query = "Select * from logininfo where username= ? and password = ?";
 	
 	public boolean check(String uname, String password) throws SQLException, ClassNotFoundException
